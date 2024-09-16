@@ -1,3 +1,6 @@
+const prompt = require('prompt-sync');
+const entrada = prompt();
+
 let idade= 19;
 const anoNascimento= 2005;
 let anoAtual= 2024;
@@ -12,7 +15,7 @@ console.log(idade);
 console.log("Meu nome é "  + nomeCompleto + " nascida no ano de " + anoNascimento + " e no ano atual " + anoAtual + " completo " + idade + " anos ");
 
 
-//Agência de viagens Bonito Foz do Iguaçu Tiradentes Urubici Cambará do Sul
+//Agência de viagens Bonito, Foz do Iguaçu, Tiradentes, Urubici, Cambará do Sul
 const ListaDeDestinos = new Array(
   "Bonito",
   " Foz do Iguaçu",
@@ -29,12 +32,15 @@ ListaDeDestinos.push(" Madrid");
 ListaDeDestinos.push(" Berlin");
 console.log(ListaDeDestinos);
 
-const idadeComprador = 18;
+var nomeComprador = entrada("Digite o seu nome: ")
+var idadeComprador = entrada("Qual a sua idade? ");
 
 if (idadeComprador >= 18) {
+  console.log("Olá senhor(a) " + nomeComprador);
   console.log("Comprador maior de idade");
   console.log("Destinos disponíveis: " + ListaDeDestinos);
 } else {
+  console.log("Olá senhor(a) " + nomeComprador);
   console.log("Comprador menor de idade");
   console.log("Sentimos muito, a compra não pôde ser finalizada pois você não é maior de idade.");
 }
