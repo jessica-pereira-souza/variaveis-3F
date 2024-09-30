@@ -32,6 +32,18 @@ ListaDeDestinos.push("Madrid");
 ListaDeDestinos.push("Berlin");
 console.log(ListaDeDestinos);
 
+const loginCerto = "jessica";
+const senhaCerta = 123;
+
+var login = entrada ("Qual é o seu login? ");
+var senha = entrada ("Insira a sua senha. ");
+
+while(login != loginCerto || senha != senhaCerta){
+  console.log ("Login ou senha incorretos. ");
+  login = entrada ("Qual é o seu login? ");
+  senha = entrada ("Insira a sua senha. ");
+}
+
 var nomeComprador = entrada("Digite o seu nome: ")
 var idadeComprador = entrada("Qual a sua idade? ");
 
@@ -47,7 +59,7 @@ if (idadeComprador >= 18) {
     contador++;
   }
   
-  var destino = entrada("Digite o númeroqque corresponde ao destino selecionado (0-8)");
+  var destino = entrada("Digite o número que corresponde ao destino selecionado (0-8)");
   console.log(`Destino selecionado foi:
                ${(ListaDeDestinos[destino])}`);
   
