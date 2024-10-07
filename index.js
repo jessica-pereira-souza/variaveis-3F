@@ -1,19 +1,26 @@
 const prompt = require('prompt-sync');
 const entrada = prompt();
 
-let idade= 19;
-const anoNascimento= 2005;
-let anoAtual= 2024;
-const nomeCompleto= "Jéssica Pereira de Souza";
+let idade = 19;
+const anoNascimento = 2005;
+let anoAtual = 2024;
+const nomeCompleto = "Jéssica Pereira de Souza";
 
 anoAtual = 2024 + 1;
 console.log(anoAtual);
 
-idade = 19 + 1;
+idade = idade + 1;
 console.log(idade);
 
 console.log("Meu nome é "  + nomeCompleto + " nascida no ano de " + anoNascimento + " e no ano atual " + anoAtual + " completo " + idade + " anos ");
+console.log("No próximo ano, " + anoAtual + ", desejo engressar na faculdade de Ciência da Computação e futuramente me tornar programadora. ");
 
+
+console.log("  ")
+console.log("─────────────── ◉ ───────────────");
+console.log("─────── Agência de Viagens ───────");
+console.log("─────────────── ◉ ───────────────");
+console.log("  ")
 
 //Agência de viagens Bonito, Foz do Iguaçu, Tiradentes, Urubici, Cambará do Sul
 const ListaDeDestinos = new Array(
@@ -34,6 +41,12 @@ console.log(ListaDeDestinos);
 
 const loginCerto = "jessica";
 const senhaCerta = 123;
+
+console.log("  ")
+console.log("─────────────── ◉ ───────────────");
+console.log("──── Área de login ────");
+console.log("─────────────── ◉ ───────────────");
+console.log("  ")
 
 var login = entrada ("Qual é o seu login? ");
 var senha = entrada ("Insira a sua senha. ");
