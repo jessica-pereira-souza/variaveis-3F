@@ -44,7 +44,7 @@ const senhaCerta = 123;
 
 console.log("  ")
 console.log("─────────────── ◉ ───────────────");
-console.log("──── Área de login ────");
+console.log("─────── Área de login ───────");
 console.log("─────────────── ◉ ───────────────");
 console.log("  ")
 
